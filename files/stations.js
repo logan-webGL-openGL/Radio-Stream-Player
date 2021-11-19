@@ -158,3 +158,14 @@ function YFM(){
    player.load();
    player.play(); 
 }
+
+function YFM(){
+
+    var player=document.getElementById('player');
+    var sourceMp3=document.getElementById('player');
+
+    sourceMp3.src='http://xmas.cdnstream.com/xmas128;';
+
+   player.load();
+   player.play(); 
+}
